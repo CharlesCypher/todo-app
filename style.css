@@ -43,11 +43,19 @@ form {
     form {
         min-width: 20rem;
     }
+
+    input {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 320px) {
     form {
         min-width: 18rem;
+    }
+
+    input {
+        font-size: .8rem;
     }
 }
 
