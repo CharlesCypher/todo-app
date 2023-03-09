@@ -32,10 +32,23 @@ h3 {
 }
 
 form {
+    width: 100%;
+    min-width: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 30rem;
+}
+
+@media screen and (max-width: 475px) {
+    form {
+        min-width: 20rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    form {
+        min-width: 18rem;
+    }
 }
 
 input {
